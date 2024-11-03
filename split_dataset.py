@@ -2,7 +2,7 @@ import os
 import shutil
 import random
 
-# Set the path to your dataset and desired split ratio
+# Set the path
 dataset_path = "/users/jakelee/dataset"
 train_path = os.path.join(dataset_path, "train")
 validation_path = os.path.join(dataset_path, "validation")
