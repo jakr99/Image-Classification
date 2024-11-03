@@ -3,7 +3,7 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
 
 model = load_model("animal_kingdom_cnn_model.h5")
-class_names = ["Animalia", "Plantae", "Fungi"]  # Adjust based on your classes
+class_names = ["Animalia", "Plantae", "Fungi"]  
 
 def predict_image(img_path):
     img = image.load_img(img_path, target_size=(128, 128))
