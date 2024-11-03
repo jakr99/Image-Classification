@@ -5,8 +5,8 @@ This small project uses a Convolutional Neural Network (CNN) to classify images 
 ---
 
 ## Project Structure
-data_preprocessing.py - Contains functions for loading and preprocessing the dataset.
-model_building.py - Defines and compiles the CNN model architecture.
-train_model.py - Trains the model on the training set and saves the trained model.
-evaluate_model.py - Loads the saved model, evaluates its performance, and displays metrics.
-predict_single_image.py - Loads the model and makes predictions on new images
+- **data_preprocessing.py** - Contains functions for loading and preprocessing the dataset.
+- **model_building.py** - Defines and compiles the CNN model architecture.
+- **train_model.py** - Trains the model on the training set and saves the trained model.
+- **evaluate_model.py** - Loads the saved model, evaluates its performance, and displays metrics.
+- **predict_single_image.py** - Loads the model and makes predictions on new images
